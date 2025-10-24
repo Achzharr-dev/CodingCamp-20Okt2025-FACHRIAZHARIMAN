@@ -2,7 +2,7 @@
 function welcomespeech() {
     let name = prompt("Please enter your name:");
 
-    document.getElementById("welcome-message").innerHTML = `HI ${name}, `;
+    document.getElementById("welcome-message").innerHTML = `Hi ${name}, `;
 
 }
 

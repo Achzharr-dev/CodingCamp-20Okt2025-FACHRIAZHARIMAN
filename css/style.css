@@ -3,7 +3,7 @@
     width: 75px;
     background-color: brown;
     border-radius: 50%;
-    background-image: url(https://picsum.photos/200);
+    background-image: url('BDS_0263@-1226579458.jpg');
     background-size: cover;
 }
 
@@ -11,4 +11,71 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-style: solid;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #090909ab;
+    background-image: url('4595ad59-beaa-42ca-abab-14c5884292c1.jpeg');
+    color: #333;
+}
+
+.text-section {
+  max-width: 500px;
+}
+
+.text-section h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.text-section h1 span {
+  color: #5a2fc2;
+}
+
+.text-section h2 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.text-section h2 span {
+  color: #111;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.image-section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+.image-section {
+  flex: 1;
+    display: flex;
+  justify-content: right;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* teks & foto ditumpuk */
+    text-align: center;
+  }
+
+  .image-section {
+    margin-top: 30px;
+  }
 }
